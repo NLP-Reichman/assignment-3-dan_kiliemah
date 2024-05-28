@@ -1,5 +1,11 @@
 {
-  "test_read_data": "TypeError(\"object of type 'function' has no len()\")",
+  "test_read_data": {
+    "lengths": [
+      1750,
+      250,
+      500
+    ]
+  },
   "test_vocab": {
     "length": 7163,
     "tag2id_length": 7,
@@ -16,6 +22,12 @@
       32
     ]
   },
-  "test_NERNet": "TypeError(\"NERNet.__init__() missing 1 required positional argument: 'output_size'\")",
-  "test_glove": "TypeError(\"NERNet.__init__() missing 1 required positional argument: 'output_size'\")"
+  "test_NERNet": {
+    "f1": 0.900911534714956,
+    "f1_wo_o": 0.8662470403133836
+  },
+  "test_glove": {
+    "f1": 0.9002779317706131,
+    "f1_wo_o": 0.8893623319238524
+  }
 }
